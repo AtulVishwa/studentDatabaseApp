@@ -18,8 +18,8 @@ public class StudentDatabaseApp {
             students[n].payTuition();
         }
 
-//        for (int n = 0; n < numberOfStudents; n++) {
-//            System.out.println(students[n].toString());
-//        }
+        for (int n = 0; n < numberOfStudents; n++) {
+            System.out.println(students[n].toString());
+        }
     }
 }
