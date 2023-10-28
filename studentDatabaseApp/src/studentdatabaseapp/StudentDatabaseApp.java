@@ -18,6 +18,7 @@ public class StudentDatabaseApp {
             students[n].payTuition();
         }
 
+        // This prints the details of every student
         for (int n = 0; n < numberOfStudents; n++) {
             System.out.println(students[n].toString());
         }
